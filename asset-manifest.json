@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SurvivorCup/static/css/main.1f6981fa.css",
-    "main.js": "/SurvivorCup/static/js/main.dc85d279.js",
+    "main.js": "/SurvivorCup/static/js/main.b6148799.js",
     "index.html": "/SurvivorCup/index.html",
     "main.1f6981fa.css.map": "/SurvivorCup/static/css/main.1f6981fa.css.map",
-    "main.dc85d279.js.map": "/SurvivorCup/static/js/main.dc85d279.js.map"
+    "main.b6148799.js.map": "/SurvivorCup/static/js/main.b6148799.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6981fa.css",
-    "static/js/main.dc85d279.js"
+    "static/js/main.b6148799.js"
   ]
 }
