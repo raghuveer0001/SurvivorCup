@@ -10,6 +10,7 @@ import MyTournaments from "./pages/MyTournaments"; // game selection + tournamen
 import Leaderboard from "./pages/Leaderboard";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
+import OAuthRedirect from "./pages/OAuthRedirect"; // <-- Add this component
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -28,6 +29,9 @@ export default function App() {
         path="/signup"
         element={<Signup onSignup={() => setIsLoggedIn(true)} />}
       />
+
+      {/* OAuth redirect handling */}
+      <Route path="/oauth-redirect" element={<OAuthRedirect />} />
 
       {/* Protected dashboard */}
       <Route

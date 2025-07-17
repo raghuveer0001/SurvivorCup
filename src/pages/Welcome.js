@@ -30,8 +30,8 @@ export default function Welcome() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
-        <img src="/freefire.png" alt="Free Fire" />
-        <img src="/bgmi.webp" alt="PUBG" />
+        <img src="/SurvivorCup/freefire.png" alt="Free Fire" />
+        <img src="/SurvivorCup/bgmi.webp" alt="PUBG" />
       </motion.div>
 
       <motion.button

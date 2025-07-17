@@ -3,8 +3,8 @@ import { Outlet, useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const gameImages = {
-  freefire: "/freefire.png",
-  pubg: "/bgmi.webp",
+  freefire: "/SurvivorCup/freefire.png",
+  pubg: "/SurvivorCup/bgmi.webp",
 };
 
 // Generate 7 days tournament data for each game with 6 PM start time
